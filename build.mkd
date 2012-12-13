@@ -1,0 +1,6 @@
+To build a release:
+
+    perl Makefile.PL
+    make manifest
+    make dist
+
