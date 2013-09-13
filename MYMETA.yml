@@ -3,6 +3,8 @@ abstract: 'a generic connection to a hierarchical-structured data set'
 author:
   - 'Scott Hardin <mrscotty@cpan.org>'
 build_requires:
+  Config::Std: 0
+  Config::Versioned: 0
   ExtUtils::MakeMaker: 6.59
   Test::More: 0
 configure_requires:
@@ -21,6 +23,7 @@ no_index:
 recommends:
   Config::Std: 0
   Config::Versioned: 0.5
+  Net::LDAP: 0
   Proc::SafeExec: 0
   Template: 0
   Text::CSV_XS: 0
@@ -31,4 +34,4 @@ requires:
   perl: 5.008008
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.00
+version: 1.02
