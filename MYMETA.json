@@ -25,7 +25,9 @@
             "Config::Std" : "0",
             "Config::Versioned" : "0",
             "ExtUtils::MakeMaker" : "6.59",
-            "Test::More" : "0"
+            "Template" : "0",
+            "Test::More" : "0",
+            "YAML" : "0"
          }
       },
       "configure" : {
@@ -56,5 +58,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.02"
+   "version" : "1.03"
 }

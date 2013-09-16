@@ -1,5 +1,7 @@
 To build a release:
 
+First, increment version number in lib/Connector.pm and then run the following:
+
     perl Makefile.PL
     make manifest
     make dist
