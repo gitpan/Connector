@@ -32,6 +32,7 @@ lib/Connector/Multi.pm
 lib/Connector/Proxy.pm
 lib/Connector/Proxy/Config/Std.pm
 lib/Connector/Proxy/Config/Versioned.pm
+lib/Connector/Proxy/DBI.pm
 lib/Connector/Proxy/Net/LDAP.pm
 lib/Connector/Proxy/Net/LDAP/DN.pm
 lib/Connector/Proxy/Net/LDAP/Simple.pm
