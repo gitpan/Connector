@@ -72,8 +72,11 @@ t/config/01-multi-symlink-tokens.yaml
 t/config/01-proxy-config-versioned-1.conf
 t/config/01-proxy-config-versioned-2.conf
 t/config/01-proxy-net-ldap.conf
+t/config/ARRAY0x7f8f22b936c0.txt
 t/config/ARRAY0x7f98bcd1fff8.txt
+t/config/ARRAY0x7faa3d030b28.txt
 t/config/ARRAY0x7fb8da51fff8.txt
+t/config/ARRAY0x7fcd9ab86240.txt
 t/config/ARRAY0x7fd0d3d1fff8.txt
 t/config/ARRAY0x7fe304d1e1e0.txt
 t/config/ARRAY0x7fecf351fff8.txt
