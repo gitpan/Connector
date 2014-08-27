@@ -1,6 +1,36 @@
-To build a release:
+# To build a release:
 
-If the build env is not already set up, run the following:
+* Switch to develop branch and update it with latest commits
+
+* Start release branch
+
+    git flow release start 1.10 develop
+
+* Bump version number in lib/Connector.pm
+
+    vi lib/Connector.pm
+    git add lib/Connector.pm
+    git commit -m 'bump version to 1.10'
+
+* Make any last-minute fixes
+
+* Finalize release (write the version number in the TAG\_MSG)
+
+    git flow release finish '1.10'
+    git push origin develop
+    git checkout master
+    git push origin master
+    git push origin 1.10
+
+* Build tarball
+
+    perl Makefile.PL
+    make manifest
+    make dist
+
+* Upload tarball to https://pause.perl.org
+
+# If the build env is not already set up, run the following:
 
     curl -L http://install.perlbrew.pl | bash
     echo "source $HOME/perl5/perlbrew/etc/bashrc" >> $HOME/.bashrc
@@ -12,13 +42,4 @@ If the build env is not already set up, run the following:
     perlbrew install-cpanm
     cpanm Module::Install
     cpanm --installdeps --notest .
-
-First, increment version number in lib/Connector.pm and META.yml 
-and then run the following:
-
-    perl Makefile.PL
-    make manifest
-    make dist
-
-Then, upload the tarball to https://pause.perl.org.
 
