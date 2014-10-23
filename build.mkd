@@ -1,5 +1,7 @@
 # To build a release:
 
+Note: Replace '1.10' in teh examples below with the current version.
+
 * Switch to develop branch and update it with latest commits
 
 * Start release branch

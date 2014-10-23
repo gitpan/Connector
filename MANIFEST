@@ -1,14 +1,5 @@
 .travis.yml
-01-proxy-proc-safeexec-config/safeexec/connectors/do_tests
-01-proxy-proc-safeexec-config/safeexec/connectors/safeexec/echo/args
-01-proxy-proc-safeexec-config/safeexec/connectors/safeexec/echo/class
-01-proxy-proc-safeexec-config/safeexec/connectors/safeexec/echo/LOCATION
-01-proxy-proc-safeexec-config/safeexec/connectors/safeexec/echo/timeout
-01-proxy-proc-safeexec-config/safeexec/smartcard/cardinfo/defaultpuk/201204-gemalto-test/5701135121569917381BFFFF
-01-proxy-proc-safeexec-config/safeexec/smartcard/cardinfo/lotid/gem2_DEADBEEF
-01-proxy-proc-safeexec-config/safeexec/test/echo
 build.mkd
-commands
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -30,7 +21,6 @@ lib/Connector/Builtin/File/Path.pm
 lib/Connector/Builtin/File/Simple.pm
 lib/Connector/Builtin/Memory.pm
 lib/Connector/Builtin/Static.pm
-lib/Connector/Chain.pm
 lib/Connector/Multi.pm
 lib/Connector/Proxy.pm
 lib/Connector/Proxy/Config/Std.pm
@@ -50,7 +40,6 @@ MANIFEST			This list of files
 META.yml
 MYMETA.json
 MYMETA.yml
-pm_to_blib
 README.mkd
 t/00-base.t
 t/01-builtin-env.t
@@ -65,7 +54,6 @@ t/01-proxy-config-std.t
 t/01-proxy-config-versioned.t
 t/01-proxy-net-ldap.t
 t/01-proxy-net-ldap.t.disabled
-t/01-proxy-proc-safeexec-uid.t
 t/01-proxy-proc-safeexec-uid.t2
 t/01-proxy-proc-safeexec.t
 t/01-proxy-yaml.t
